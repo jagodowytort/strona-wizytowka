@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* nawigacje */
+.nav {
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: color .3s;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+/* headery */
+.header-img {
+    position: relative;
+    height: 300px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.header-text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.developer {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 5px 10px rgb(255, 0, 0);
+}
+
+.header-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,3,27,.4);
+}
+
+.header-text h1 {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 57px;
+    color: #ffffff;
+}
+
+/* footery */
+footer {
+    height: 80px;
+    line-height: 80px;
+    color: #ddd;
+    background-color: #333;
+    text-align: center;
+    font-size: 22px;
+}
+
+.icon-box {
+    margin-left: 20px;
+}
+
+.icon-box a {
+    margin: 0 5px;
+    color: #ddd;
+    font-size: 33px;
+}
+
+/* mainy */
+main {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+main h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-me-box {
+    position: relative;
+    height: 300px;
+    margin: 40px 0;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.top {
+    background-image: url('../img/ofis.jpg');
+}
+
+.middle {
+    background-image: url('../img/woman.jpg');
+}
+
+.bottom {
+    background-image: url('../img/prog.jpg');
+}
+
+.about-me-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-me-text h3 {
+    text-transform: uppercase;
+}
+
+.about-me-bg {
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.ex-list {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.c-info {
+    text-align: center;
+    font-size: 29px;
+}
